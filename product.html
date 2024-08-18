@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwindcss CDN LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Products</title>
+</head>
+
+<!--RESPONSIVE NAVBAR-->
+<nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+    <h1 class="text-2xl">GREENDEN</h1>
+
+    <!--TAILWIND CSS-->
+
+    <svg id="menuicon"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+
+    <ul class="gap-6  text-gray-600 hidden md:flex">
+        <li class="hover:underline hover:text-black"><a href="./index.html">Home</a></li>
+        <li class="hover:underline hover:text-black"> <a href="./product.html">Product</a></li>
+        <li class="hover:underline hover:text-black"><a href="./contact.html">Contact us</a></li>
+    </ul>
+  
+</nav>
+   <!--SIDE NAVBAR-->
+   <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000"
+   style="width: 50%;height: 100vh;right: -50%">
+      <div class="text-right p-5">
+          <p id="closenav" class="inline cursor-pointer">X</p>
+      </div>
+      <ul class="flex flex-col gap-10 items-center text-gray-600">
+          <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+          <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+          <li><a class="hover:underline hover:text-black" href="contact.html">Contact Us</a></li>
+      </ul>
+  </section>
+
+
+<!--PRODUCT SECTION-->
+<section class="text-center">
+    <h1 class="font-bold text-3xl m-9">Our Products</h1>
+    <input id="Search" type="text" style="width: 80%;" class="border border-black w-2/3 p-2 outline-none" placeholder="Search a product....">
+    <div id="product-container" class="grid grid-cols-2 justify-center md:grid-cols-4">
+        <div class="m-10">
+            <img src="./Images/p1.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Multicolored Rose</h1>
+            <p>$19.99</p>
+        </div>
+
+        <div class="m-10">
+            <img src="./Images/p2.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Pink Rose</h1>
+            <p>$20</p>
+        </div>
+
+        <div class="m-10">
+            <img src="./Images/p3.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Original Rose</h1>
+            <p>$20</p>
+        </div>
+
+        <div class="m-10">
+            <img src="./Images/p4.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Orange Rose</h1>
+            <p>$20</p>
+        </div>
+
+        <div class="m-5">
+            <img src="./Images/p5.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Tulips Plant</h1>
+            <p>$20</p>
+
+        </div>
+        <div class="m-5">
+            <img src="./Images/p6.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Lilly Plant</h1>
+            <p>$20</p>
+
+        </div>
+        <div class="m-5">
+            <img src="./Images/p7.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Decor plant</h1>
+            <p>$20</p>
+        </div>
+
+        <div class="m-5">
+            <img src="./Images/p8.png" alt="" class="inline border-2 transform hover:-translate-y-2">
+            <h1>Dry Plant</h1>
+            <p>$20</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer section -->
+<section class="bg-green-100 mt-3">
+    <h1 class="font-bold text-4xl p-5">Greenden</h1>
+    <p class="pl-5 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum porro cum official blanditiis eveniet at.</p>
+    <p class="pl-5 pb-5">&#169; Greenday.com</p>
+</section>
+<script src="product.js"></script>
+</body>
+
+</html>
+
