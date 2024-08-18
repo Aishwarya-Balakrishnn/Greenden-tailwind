@@ -17,7 +17,7 @@ GreenDen is a home decor plant-selling website designed to bring greenery into y
 
 ## Demo
 
-[Insert a link to a live demo or screenshots of the project here]
+https://aishwarya-balakrishnn.github.io/Greenden-tailwind/
 
 ## Features
 
